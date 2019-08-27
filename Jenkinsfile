@@ -15,7 +15,7 @@ pipeline {
     )
     booleanParam(
       name: 'python3',
-      defaultValue: false,
+      defaultValue: true,
       description: 'Building also for Pytho3'
     )
     booleanParam(
