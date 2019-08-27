@@ -42,3 +42,28 @@ __pycache__
 # ===[ EXCLUDES ]=== #
 !.gitkeep
 !.htaccess
+
+
+# Build artifacts
+channel
+branch
+buildnum
+build_trigger_number
+win-*/
+linux-*/
+htmlcov/
+coverage.xml
+
+# Sonar
+.scannerwork/
+
+# Editors: VSCode Idea
+.idea/
+.vscode/
+.vs/
+
+# Vagrant
+.vagrant/
+
+# mypy
+.mypy_cache/
